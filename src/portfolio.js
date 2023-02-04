@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Stephen Borutta",
+  title: "Hi all, I'm Stephen",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Python and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12RhOvr6srPp-F0pDK3qeytMLKkLbaugJ/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/SteviBee",
+  linkedin: "https://www.linkedin.com/in/stephen-borutta-68746971/",
+  gmail: "stephen.boruta.dev@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +45,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Software Engineer | Data Analyst | Javascript | Python | SQL",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop full stack web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Good verbal and written communication skills, and strong attention to detail and testing"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Experience with software development workflows"
     )
   ],
 
@@ -77,7 +73,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
+      skillName: "javascript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "typescript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -89,10 +89,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -101,20 +97,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "django",
+      fontAwesomeClassname: "fa-solid fa-book"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +118,35 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Springboard Software Engineering Career Track",
+      logo: require("./assets/images/springboard-logo-dark@2x.jpeg"),
+      subHeader: "Certification",
+      duration: "August 2021 - July 2022",
+      desc: "9-month intensive course in Software Engineering methodologies and technologies.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "I created a Developer's Carbon Emission Calculator Application",
+        "I created and started a Professional Brewer Educational Courses Application",
+        "Mastered skills in front-end web development, back-end web development, databases, and data structures and algorithms.",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Learn Python the Hard Way",
+      logo: require("./assets/images/lpthwLogo.jpeg"),
+      subHeader: "Hands on online Python course. I did every extended education project.",
+      duration: "January 2017 - December 2017",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems",
+      descBullets: [
+        "Created fullstack applications", 
+        "Focused on syntax and understanding code patterns",
+      ]
+    },
+    {
+      schoolName: "Hendrix College",
+      logo: require("./assets/images/hendrixLogo.jpeg"),
+      subHeader: "Bachelor of Arts in Chemistry",
+      duration: "May 2009 - May 2013",
+      desc: "Minored in Physics",
+      descBullets: [""]
     }
   ]
 };
@@ -153,8 +157,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -174,30 +178,68 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Data Analyst & Supervisor",
+      company: "Intralox",
+      companylogo: require("./assets/images/intraloxLogo.jpeg"),
+      date: "August 2021 – Present",
+      desc: "Create custom KPI reports, dashboards, and analyze data. Responsible for a team of 55 employees that create custom plastic modular belts with industrial machining. Lead continuous improvement / Kanban / Scrum projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Create custom SQL and Python dashboards",
+        "Use custom python scripts to analyze 8000 SKUs and identify our top losses",
+        "Led process improvement teams that reduced our top 30 SKU losses by 40%",
+        "Help optimize entreprise data managment systems"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Springboard Software Engineering Career",
+      company: "Springboard",
+      companylogo: require("./assets/images/springboard-logo-dark@2x.jpeg"),
+      date: "August 2021 - July 2022",
+      desc: "9-month intensive course in Software Engineering methodologies and technologies.",
+      descBullets: [
+        "I created a Developer's Carbon Emission Calculator Application",
+        "I created and started a Professional Brewer Educational Courses Application",
+        "Mastered skills in front-end web development, back-end web development, databases, and data structures and algorithms.",
+      ] 
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Director Of Brewing Operations",
+      company: "Faubourg Brewery",
+      companylogo: require("./assets/images/beerLogo.jpeg"),
+      date: "September 2019 – July 2021 ",
+      desc: "Commissioned and responsible for all people and production for a top-100 brewery-by-volume. Ekos.",
+      descBullets: [
+        "Responsible for creating a custom cleaning software for a 100-bbl brewhouse",
+        "Finished designing and commissioned a 20-million dollar production brewery with multiple sets of custom equipment",
+        "Created and scaled up 15 recipes to full production release",
+        "Responsible for all quality, produciton, equipment, and day-to-day operations"
+      ]
+    },
+    {
+      role: "Optimization Engineer",
+      company: "MillerCoors",
+      companylogo: require("./assets/images/CoorsLogo.jpeg"),
+      date: "July 2015 – September 2019",
+      desc: "Managed operations of the brewing process for 35 personnel, led projects, and optimized. Enterprise ERP",
+      descBullets: [
+        "Lead a cross department focused improvement team of software engineers responsible for 80 million gallons of water saved in 2018, doubling hygiene results, and increasing equipment efficency",
+        "Saved over $400,000 in electrical cost in 2019 through to energy efficiency initiatives",
+        "Commissioned a software program for the CIP of 8 external wort heat exchanger for a 10 million HL brew house",
+        "Optimized enterpise level data management and control systems"
+      ]
+    },
+    {
+      role: "Freelance",
+      company: "Freelance",
+      companylogo: require("./assets/images/githubLogo.png"),
+      date: "September 2018 - September 2020",
+      desc: "Used Express, Javascript, CSS / HTML, Pug, OpendotaAPI to develop a data-driven video game training website. Made custom Wix / Wordpress sites",
+      descBullets: [
+        "Created custom landing pages, and website for personal use and businesses",
+        "Responsible for creating a enterprise content management system for a ad agency"
+      ]
+    
+    },
   ]
 };
 
@@ -212,29 +254,53 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "A few open source and personal projects.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/lipsLogo.svg"),
+      projectName: "LIPS is poweful Scheme based lisp interpreter written in JavaScript.",
+      projectDesc: "It is based on the Scheme dialect and the R5RS/R7RS specifications. It has extensions to make it easier to interact with JavaScript. It work both in the browser and with Node.js. I contributed to this project.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://lips.js.org/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/joblyLogo.png"),
+      projectName: "React / JSON API for Employee-Company Job Application",
+      projectDesc: "Created a pure JSON API app that uses a deployed database and relationships between open jobs at different companies and employees application to display data. Created a React, SPA, front end for it.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://react-jobly-stevibee.surge.sh/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/devCarbonLogo.webp"),
+      projectName: "Developer's Carbon Emission Calculator with React, Node, Express",
+      projectDesc: "To create an application that calculates how much CO2e emission are created from difference CPU loads for a given application in order to help provide actions to take to reduce these emissions Result: A calculator able to take users inputs and give an accurate CO2e emissions for developers to use.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/SteviBee/dev-carbon-footprint-frontend"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/probrewerLogo.ico"),
+      projectName: "Professional Brewer Educational Courses Application",
+      projectDesc: "Built a full stack web app that provides brewing educational courses to users with full CRUD capabilities for user profiles, utilized an external graphical API, and provided feedback, resources, and tracking during the courses. It is currently deployed.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/SteviBee/probrewer_ed_app "
         }
       ]
     }
@@ -252,53 +318,35 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "2022 Digital Ocean Hackathon Participant",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed contributions to four open source projects",
+      image: require("./assets/images/githubLogo.png"),
+      imageAlt: "Github",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Github",
+          url: "https://github.com/SteviBee"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Web3 Finalist for Hackathon",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Created a environmentally focused NFT for launch to support coastal restoration in LA",
+      image: require("./assets/images/wwLogo.svg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+          name: "Visit Landing Page",
+          url: "https://waterwatchers.us/"
+        },
+        {
+          name: "Visit Event Page",
+          url: "https://web3pitchevent.splashthat.com/"
+        },
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +372,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +391,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +404,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  // number: "+92-0000000000",
+  email_address: "stephen.borutta.dev@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
