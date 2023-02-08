@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/developerFolio/static/css/main.e0f8b565.chunk.css",
+    "main.js": "/developerFolio/static/js/main.abc3021d.chunk.js",
+    "main.js.map": "/developerFolio/static/js/main.abc3021d.chunk.js.map",
+    "runtime-main.js": "/developerFolio/static/js/runtime-main.d7911fcc.js",
+    "runtime-main.js.map": "/developerFolio/static/js/runtime-main.d7911fcc.js.map",
+    "static/js/2.a2780a32.chunk.js": "/developerFolio/static/js/2.a2780a32.chunk.js",
+    "static/js/2.a2780a32.chunk.js.map": "/developerFolio/static/js/2.a2780a32.chunk.js.map",
+    "static/css/3.245776da.chunk.css": "/developerFolio/static/css/3.245776da.chunk.css",
+    "static/js/3.01da6e7b.chunk.js": "/developerFolio/static/js/3.01da6e7b.chunk.js",
+    "static/js/3.01da6e7b.chunk.js.map": "/developerFolio/static/js/3.01da6e7b.chunk.js.map",
+    "static/css/4.51632a06.chunk.css": "/developerFolio/static/css/4.51632a06.chunk.css",
+    "static/js/4.7e77a6e9.chunk.js": "/developerFolio/static/js/4.7e77a6e9.chunk.js",
+    "static/js/4.7e77a6e9.chunk.js.map": "/developerFolio/static/js/4.7e77a6e9.chunk.js.map",
+    "index.html": "/developerFolio/index.html",
+    "precache-manifest.03ac339a0a5885301cdc56972c648a63.js": "/developerFolio/precache-manifest.03ac339a0a5885301cdc56972c648a63.js",
+    "service-worker.js": "/developerFolio/service-worker.js",
+    "static/css/3.245776da.chunk.css.map": "/developerFolio/static/css/3.245776da.chunk.css.map",
+    "static/css/4.51632a06.chunk.css.map": "/developerFolio/static/css/4.51632a06.chunk.css.map",
+    "static/css/main.e0f8b565.chunk.css.map": "/developerFolio/static/css/main.e0f8b565.chunk.css.map",
+    "static/js/2.a2780a32.chunk.js.LICENSE.txt": "/developerFolio/static/js/2.a2780a32.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/developerFolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.51cf7192.svg",
+    "static/media/devCarbonLogo.webp": "/developerFolio/static/media/devCarbonLogo.4f6b82da.webp",
+    "static/media/developerActivity.svg": "/developerFolio/static/media/developerActivity.59389695.svg",
+    "static/media/lipsLogo.svg": "/developerFolio/static/media/lipsLogo.203d34fc.svg",
+    "static/media/manOnTable.svg": "/developerFolio/static/media/manOnTable.52be3144.svg",
+    "static/media/probrewerLogo.ico": "/developerFolio/static/media/probrewerLogo.b9ecd8ec.ico",
+    "static/media/skill.svg": "/developerFolio/static/media/skill.34409398.svg",
+    "static/media/springboard-logo-dark@2x.jpeg": "/developerFolio/static/media/springboard-logo-dark@2x.83403cfa.jpeg",
+    "static/media/TalkCard.scss": "/developerFolio/static/media/talksCardBack.13780cdd.svg",
+    "static/media/wwLogo.svg": "/developerFolio/static/media/wwLogo.6ca5ab93.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7911fcc.js",
+    "static/js/2.a2780a32.chunk.js",
+    "static/css/main.e0f8b565.chunk.css",
+    "static/js/main.abc3021d.chunk.js"
+  ]
+}
